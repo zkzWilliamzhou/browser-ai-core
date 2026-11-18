@@ -1,0 +1,22 @@
+{
+  "name": "browser-ai-core",
+  "version": "0.1.0",
+  "description": "Browser-native AI inference engine with WebGPU and WebAssembly acceleration",
+  "keywords": ["ai", "llm", "webgpu", "webassembly", "inference", "browser", "local-ai"],
+  "author": "Browser AI Core Contributors",
+  "license": "MIT",
+  "bin": { "browser-ai-core": "./dist/index.js" },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "dev": "node dist/index.js dev",
+    "run": "node dist/index.js run",
+    "test": "node dist/index.js test",
+    "init": "node dist/index.js init",
+    "optimize": "node dist/index.js optimize"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "https://github.com/yourname/browser-ai-core.git" },
+  "bugs": { "url": "https://github.com/yourname/browser-ai-core/issues" }
+}
